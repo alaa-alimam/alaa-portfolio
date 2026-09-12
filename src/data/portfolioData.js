@@ -296,7 +296,7 @@ export const portfolioData = {
         "Text Classification"
       ],
       github:
-        "https://github.com/alaa-alimam/SMS-Spam-Detection"
+        "https://github.com/alaa-alimam/SMS-Spam-Detection-Using-NLP-and-ML"
     },
 
     {
@@ -310,7 +310,7 @@ export const portfolioData = {
         "Keras"
       ],
       github:
-        "https://github.com/alaa-alimam/CIFAR-10-Image-Classification"
+        "https://github.com/alaa-alimam/CIFAR10-Image-Classification-Deep-Learning-CNN"
     },
 
     {
@@ -336,7 +336,7 @@ export const portfolioData = {
         "Regression"
       ],
       github:
-        "https://github.com/alaa-alimam/Vehicle-Sales-Price-Prediction"
+        "https://github.com/alaa-alimam/Car-Price-Prediction-ML"
     },
 
     {
@@ -349,7 +349,7 @@ export const portfolioData = {
         "Business Intelligence"
       ],
       github:
-        "https://github.com/alaa-alimam/Smartphone-Sales-Analysis"
+        "https://github.com/alaa-alimam/Smartphone_Sales_Analysis_Dashboard"
     },
 
     {
@@ -361,7 +361,7 @@ export const portfolioData = {
         "Business Intelligence"
       ],
       github:
-        "https://github.com/alaa-alimam/Samsung-Global-Sales-Analysis"
+        "https://github.com/alaa-alimam/Samsung_Global_Sales_Data_Analysis"
     },
 
     {
@@ -373,7 +373,7 @@ export const portfolioData = {
         "Classification"
       ],
       github:
-        "https://github.com/alaa-alimam/Customer-Churn-Prediction"
+        "https://github.com/alaa-alimam/Customer_Churn_Prediction_ML"
     },
 
     {
@@ -385,7 +385,7 @@ export const portfolioData = {
         "Regression"
       ],
       github:
-        "https://github.com/alaa-alimam/House-Price-Prediction"
+        "https://github.com/alaa-alimam/House-Price-Prediction-ML"
     },
 
     {
@@ -397,7 +397,7 @@ export const portfolioData = {
         "Classification"
       ],
       github:
-        "https://github.com/alaa-alimam/Titanic-Survival-Prediction"
+        "https://github.com/alaa-alimam/Titanic-Survival-Prediction-ML"
     },
 
     {
@@ -409,7 +409,7 @@ export const portfolioData = {
         "Programming"
       ],
       github:
-        "https://github.com/alaa-alimam/Python-Fundamentals"
+        "https://github.com/alaa-alimam/Python-Fundamentals-And-Practice-Projects"
     }
   ],
 
