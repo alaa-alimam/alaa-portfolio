@@ -1,0 +1,136 @@
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 800ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 800ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay {
+  transition-delay: 120ms;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(0.95);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform:
+      translate(-50%, -50%)
+      rotate(0deg);
+  }
+
+  to {
+    transform:
+      translate(-50%, -50%)
+      rotate(360deg);
+  }
+}
+
+@keyframes orbitReverse {
+  from {
+    transform:
+      translate(-50%, -50%)
+      rotate(360deg);
+  }
+
+  to {
+    transform:
+      translate(-50%, -50%)
+      rotate(0deg);
+  }
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes nodePulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 0 rgba(56, 189, 248, 0);
+  }
+
+  50% {
+    box-shadow:
+      0 0 0 7px rgba(56, 189, 248, 0.07),
+      0 0 20px rgba(56, 189, 248, 0.35);
+  }
+}
+
+.ai-core {
+  animation:
+    float 6s ease-in-out infinite,
+    glow 4s ease-in-out infinite;
+}
+
+.ai-orbit-one {
+  animation:
+    orbit 18s linear infinite;
+}
+
+.ai-orbit-two {
+  animation:
+    orbitReverse 25s linear infinite;
+}
+
+.ai-orbit-three {
+  animation:
+    orbit 32s linear infinite;
+}
+
+.neural-node {
+  animation:
+    nodePulse 3s ease-in-out infinite;
+}
+
+.floating-chip {
+  animation:
+    float 5s ease-in-out infinite;
+}
+
+.chip-two {
+  animation-delay: -1.5s;
+}
+
+.chip-three {
+  animation-delay: -2.5s;
+}
+
+.chip-four {
+  animation-delay: -3.5s;
+}
